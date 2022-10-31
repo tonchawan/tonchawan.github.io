@@ -1,0 +1,14 @@
+body{
+    display: grid;
+    grid-template-rows: 1/3fr 1/3fr 1/3fr ;
+    grid-template-columns:1/3fr 1/3fr 1/3fr ;
+}
+
+#chawal{
+    grid-row: 2 / span 1 ;
+    grid-column: 2 / span 1 ;
+}
+a{
+    text-decoration: none;
+}
+
